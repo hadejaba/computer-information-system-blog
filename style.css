@@ -61,7 +61,7 @@ main p {
     border-bottom: 3px solid #3d3d3d;
 }
 
-main p:nth-of-type(5) {
+main p:last-of-type {
     border-bottom: 0px;
 }
 
@@ -103,6 +103,26 @@ iframe {
 .tree {
     width: 500px;
 }
+
+.cont {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.cont img {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+}
+
+.compInfo,
+.compInfoTwo {
+    border: none;
+    margin-bottom: 20px;
+}
+
+
 
 footer {
     display: flex;
