@@ -75,6 +75,11 @@ main h2:nth-of-type(1) {
     padding-top: 0px;
 }
 
+.reso {
+    width: 550px;
+    padding: 20px;
+}
+
 aside {
     float: right;
     width: 25%;
